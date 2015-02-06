@@ -584,6 +584,7 @@ syntax keyword pfmainConf smtpd_reject_footer
 syntax keyword pfmainConf smtpd_reject_unlisted_recipient
 syntax keyword pfmainConf smtpd_reject_unlisted_sender
 syntax keyword pfmainConf smtpd_restriction_classes
+syntax keyword pfmainConf smtpd_relay_restrictions
 syntax keyword pfmainConf smtpd_sasl_auth_enable
 syntax keyword pfmainConf smtpd_sasl_authenticated_header
 syntax keyword pfmainConf smtpd_sasl_exceptions_networks
@@ -1307,6 +1308,7 @@ syntax match pfmainRef "$\<smtpd_recipient_restrictions\>"
 syntax match pfmainRef "$\<smtpd_reject_footer\>"
 syntax match pfmainRef "$\<smtpd_reject_unlisted_recipient\>"
 syntax match pfmainRef "$\<smtpd_reject_unlisted_sender\>"
+syntax match pfmainRef "$\<smtpd_relay_restrictions\>"
 syntax match pfmainRef "$\<smtpd_restriction_classes\>"
 syntax match pfmainRef "$\<smtpd_sasl_auth_enable\>"
 syntax match pfmainRef "$\<smtpd_sasl_authenticated_header\>"
